@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html,
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    background: #474747;
+}
+
+.wrapper {
+    width: 380px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.wrapper .tittle {
+    line-height: 90px;
+    background: #787878;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.wrapper form {
+    padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+}
+
+.wrapper form .row input:focus {
+border-color: #787878;
+box-shadow: inset 0 0 5px rgba(120, 120, 120, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #000000;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+    background: #787878;
+    border: 1px solid #787878;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .button input {
+    padding-left: 0;
+    background: #787878;
+    border: 1px solid #787878;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.wrapper form .button input:hover {
+    background: #b4b4b4;
+    border: 1px solid #b4b4b4;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+
+}
+
+.wrapper .pass {
+    padding-left: 100px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper .pass a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper .pass a:hover {
+    color: #c44558;
+    transition: 0.3s ease-in-out;
+}
+
+.signup {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0;
+    background: #474747;
+
+}
+
+.signup a {
+    color: #6EC4FF;
+    text-decoration: none;
+}
+
+.wrapper .signup a:hover {
+    color: #c44558;
+    transition: 0.3s ease-in-out;
+}
